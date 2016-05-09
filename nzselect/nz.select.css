@@ -1,0 +1,77 @@
+.nzselect {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 99999;
+  opacity: 0;
+  overflow: hidden;
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  -webkit-transition: opacity 500ms;
+}
+.nzselect,
+.nzselect * {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.nzselect.show {
+  opacity: 1;
+  visibility: visible;
+}
+.nzselect div {
+  background-color: #3d3d3d;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -webkit-transform: translate(0, 100%);
+  -webkit-transition: -webkit-transform 500ms;
+}
+.nzselect div.show {
+  -webkit-transform: translate(0, 0);
+}
+.nzselect div h4 {
+  background-color: #000;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 60px;
+  color: #31B7E8;
+  width: 100%;
+  height: 60px;
+}
+.nzselect div ul {
+  background-color: #303030;
+  width: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+  z-index: -9999;
+  position: absolute;
+  visibility: hidden;
+}
+.nzselect div ul.show {
+  z-index: 1;
+  position: relative;
+  visibility: visible;
+}
+.nzselect div ul li {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+  color: #fff;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  -webkit-transition: background-color 500ms;
+}
+.nzselect div ul li :nth-child(2n+1) {
+  background-color: #343434;
+}
+.nzselect div ul li.on {
+  background-color: #31B7E8;
+}
