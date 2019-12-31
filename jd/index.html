@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .box {
+        border-bottom: dashed 1px #888;
+    }
+
+    .box p {
+        margin: 1em 0;
+    }
+</style>
+<h3>京贴</h3>
+<div class="box">
+    <p>添</p>
+    <p>京东金融新春送福利，狂撒10亿购物金。首次必开10-100元，快来领红包吧 (｡･∀･)ﾉ@uEB2R0rvJa@長銨復製泚消息打开最新版【京东金融App】或在App顶部搜索框粘贴此消息搜索</p>
+</div>
+<div class="box">
+    <p>华</p>
+    <p>京东金融新春送福利，狂撒10亿购物金。首次必开10-100元，快来领红包吧 (｡･∀･)ﾉ@N0rJE9eUJa@長銨復製泚消息打开最新版【京东金融App】或在App顶部搜索框粘贴此消息搜索</p>
+</div>
+<div class="box">
+    <p>萍</p>
+    <p>京东金融新春送福利，狂撒10亿购物金。首次必开10-100元，快来领红包吧 (｡･∀･)ﾉ@NEFqN3Z3Zb@長銨復製泚消息打开最新版【京东金融App】或在App顶部搜索框粘贴此消息搜索</p>
+</div>
+<script>
+  // 数据
+  let userList = [
+    {
+      name: '添',
+      id: 'hZF_YuwoUY-QMcfC5HpB_w',
+    },
+    {
+      name: 'Ajax',
+      id: 'C68jv4mw2W73s0jSTchvyDHJjQVZ6t65wB2hQlDcOKQ',
+    },
+    {
+      name: '华',
+      id: 'SP2bUEjePJiZilTbUxyuzjHJjQVZ6t65wB2hQlDcOKQ',
+    },
+    {
+      name: '萍',
+      id: 'h99o6GRWGlfBuj8V3IpEgE5OYI4LToSA',
+    },
+  ]
+
+  userList.map(e => {
+    e.qq = `https://uua.jr.jd.com/uc-fe-wxgrowing/1111jingtie/index/157433679875950707/?utm_term=qqfriends&channelLv=zhcfloating&utm_medium=jrappshare&shareId=${encodeURIComponent(e.id)}&utm_source=iOS%2Aurl%2A1574336800031`
+    e.qq2 = `https://a.ua.jd.com/uc-fe-wxgrowing/1111jingtie/index/157709390728453272/?shareId=${encodeURIComponent(e.id)}`
+    e.wechat = `https://u2.jr.jd.com/downloadApp/index.html?jumpUrl=https%3A%2F%2Fuua.jr.jd.com%2Fuc-fe-wxgrowing%2F1111jingtie%2Findex%2F%3FchannelLv%3Dzhcfloating%26shareId%3D${encodeURIComponent(e.id)}`
+  })
+  console.log(userList)
+</script>
+</body>
+</html>
