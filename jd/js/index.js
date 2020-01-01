@@ -1,6 +1,6 @@
 let clipboard = new ClipboardJS('.j-copy', {
   text: trigger => {
-    return trigger.parentNode.textContent
+    return trigger.parentNode.textContent.trim()
   },
 })
 clipboard.on('success', () => {
