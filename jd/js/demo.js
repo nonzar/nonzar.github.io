@@ -16,6 +16,10 @@ let list = [
     name: '萍',
     id: 'h99o6GRWGlfBuj8V3IpEgE5OYI4LToSA',
   },
+  {
+    name: '雨',
+    id: 'bRE9VMDV4UYKo92JZMMIHTHJjQVZ6t65wB2hQlDcOKQ',
+  },
 ]
 
 list.map(e => {
