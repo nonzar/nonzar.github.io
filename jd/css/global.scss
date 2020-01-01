@@ -1,4 +1,6 @@
 @charset "utf-8";
+@import "../../css/normalize";
+
 body {
   padding-left: 30px;
   padding-right: 30px;
@@ -10,14 +12,20 @@ h3 {
 
 .box {
   border-bottom: dashed 1px #888;
-}
 
-.box p {
-  margin: 1em 0;
+  p {
+    margin: 1em 0;
+  }
+
+  .name {
+    color: red;
+    margin-right: 0.5em;
+  }
 }
 
 .j-copy {
   &::before {
     content: '复制';
+
   }
 }
