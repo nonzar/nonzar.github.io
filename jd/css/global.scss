@@ -2,9 +2,9 @@
 @import "../../css/normalize";
 
 body {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 50px;
+  background-color: #ededed;
+  color: #1a1a1a;
+  padding-bottom: 30px;
 }
 
 h3 {
@@ -12,10 +12,14 @@ h3 {
 }
 
 .box {
-  border-bottom: dashed 1px #888;
+  background-color: #fff;
+  padding: 10px 20px 0;
+  margin: 10px 8px;
+  border-radius: 10px;
+  overflow: hidden;
 
-  p {
-    margin: 1em 0;
+  .item {
+    margin-bottom: 10px;
   }
 
   .name {
