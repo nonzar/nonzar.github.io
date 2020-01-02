@@ -24,7 +24,7 @@ h3 {
 }
 
 .j-copy {
-  &::before {
+  &:before {
     content: '复制';
   }
 }
