@@ -1,0 +1,56 @@
+@charset "utf-8";
+@import "../../css/normalize";
+
+$color-link: #5b6a91;
+
+.ui-button {
+  background-color: #57be6a;
+  text-decoration: none;
+  text-align: center;
+  line-height: 32px;
+  font-size: 16px;
+  color: #fff;
+  height: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  display: inline-block;
+  border-radius: 3px;
+
+  &.mini {
+    line-height: 21px;
+    font-size: 12px;
+    height: 21px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+body {
+  background-color: #ededed;
+  color: #1a1a1a;
+  padding-bottom: 30px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.copy-text {
+  display: inline;
+}
+
+.box {
+  background-color: #fff;
+  padding: 10px 20px 0;
+  margin: 10px 8px;
+  border-radius: 10px;
+  overflow: hidden;
+
+  .item {
+    margin-bottom: 10px;
+  }
+
+  .name {
+    color: red;
+  }
+}
